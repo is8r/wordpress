@@ -19,7 +19,7 @@ cliVersion="$(
 )"
 cliSha512="$(curl -fsSL "https://github.com/wp-cli/wp-cli/releases/download/v${cliVersion}/wp-cli-${cliVersion}.phar.sha512")"
 
-echo "$current (CLI $cliVersion)"
+echo "$current (CLI $cliVersion)-ja"
 
 declare -A variantExtras=(
 	[apache]='\nRUN a2enmod rewrite expires\n'
